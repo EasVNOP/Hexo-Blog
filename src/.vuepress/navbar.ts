@@ -13,10 +13,8 @@ export default navbar([
         icon: "pen-to-square",
         prefix: "粉丝委托/",
         children: [
-          { text: "文章1", icon: "pen-to-square", link: "1" },
-          { text: "文章2", icon: "pen-to-square", link: "2" },
-          "3",
-          "4",
+          { text: "教程", icon: "pen-to-square", link: "教程" },
+          { text: "规则", icon: "pen-to-square", link: "规则" },
         ],
       },
       {
@@ -25,17 +23,10 @@ export default navbar([
         prefix: "作品文章/",
         children: [
           {
-            text: "香蕉 1",
+            text: "成品书 MindVerse",
             icon: "pen-to-square",
-            link: "1",
+            link: "MindVerse",
           },
-          {
-            text: "香蕉 2",
-            icon: "pen-to-square",
-            link: "2",
-          },
-          "3",
-          "4",
         ],
       },
       { text: "作者介绍", icon: "pen-to-square", link: "作者介绍" },
