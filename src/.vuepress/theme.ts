@@ -7,8 +7,8 @@ export default hopeTheme({
   hostname: "https://mister-hope.github.io",
 
   author: {
-    name: "Mr.Hope",
-    url: "https://mister-hope.com",
+    name: "Eason Zhao",
+    url: "hub.vnop.cn",
   },
 
   iconAssets: "fontawesome-with-brands",
@@ -31,7 +31,7 @@ export default hopeTheme({
 
   // 博客相关
   blog: {
-    description: "一个前端开发者",
+    description: "啥也不会的技术萌新（确信）",
     intro: "/intro.html",
     medias: {
       Baidu: "https://example.com",

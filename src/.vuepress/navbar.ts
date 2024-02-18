@@ -4,25 +4,25 @@ export default navbar([
   "/",
   "/demo/",
   {
-    text: "博文",
+    text: "博客文章",
     icon: "pen-to-square",
     prefix: "/posts/",
     children: [
       {
-        text: "苹果",
+        text: "粉丝委托",
         icon: "pen-to-square",
-        prefix: "apple/",
+        prefix: "粉丝委托/",
         children: [
-          { text: "苹果1", icon: "pen-to-square", link: "1" },
-          { text: "苹果2", icon: "pen-to-square", link: "2" },
+          { text: "文章1", icon: "pen-to-square", link: "1" },
+          { text: "文章2", icon: "pen-to-square", link: "2" },
           "3",
           "4",
         ],
       },
       {
-        text: "香蕉",
+        text: "作品文章",
         icon: "pen-to-square",
-        prefix: "banana/",
+        prefix: "作品文章/",
         children: [
           {
             text: "香蕉 1",
@@ -38,15 +38,8 @@ export default navbar([
           "4",
         ],
       },
-      { text: "樱桃", icon: "pen-to-square", link: "cherry" },
-      { text: "火龙果", icon: "pen-to-square", link: "dragonfruit" },
-      "tomato",
-      "strawberry",
+      { text: "作者介绍", icon: "pen-to-square", link: "作者介绍" },
+      { text: "站点介绍", icon: "pen-to-square", link: "站点介绍" },
     ],
-  },
-  {
-    text: "V2 文档",
-    icon: "book",
-    link: "https://theme-hope.vuejs.press/zh/",
   },
 ]);
